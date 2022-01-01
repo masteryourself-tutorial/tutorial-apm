@@ -19,6 +19,11 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories(basePackages = "org.tutorial.skywalking.helloworld.repository")
 public class HelloWorldApplication {
 
+    /**
+     * 启动时需要配置 agent 参数
+     * -javaagent:/Users/ruanrenzhao/environment/apache-skywalking-apm-bin/agent/skywalking-agent.jar
+     * @param args
+     */
     public static void main(String[] args) {
         SpringApplication.run(HelloWorldApplication.class, args);
     }
