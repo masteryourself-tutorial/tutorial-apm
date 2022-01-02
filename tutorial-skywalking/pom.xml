@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>tutorial-skywalking-helloworld</module>
+        <module>tutorial-skywalking-synthetic</module>
     </modules>
 
     <properties>
