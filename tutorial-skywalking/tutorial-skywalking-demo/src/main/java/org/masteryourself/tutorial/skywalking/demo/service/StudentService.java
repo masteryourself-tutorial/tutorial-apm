@@ -1,8 +1,8 @@
-package org.tutorial.skywalking.helloworld.service;
+package org.masteryourself.tutorial.skywalking.demo.service;
 
+import org.masteryourself.tutorial.skywalking.demo.repository.StudentRepository;
 import org.springframework.stereotype.Service;
-import org.tutorial.skywalking.helloworld.entity.Student;
-import org.tutorial.skywalking.helloworld.repository.StudentRepository;
+import org.masteryourself.tutorial.skywalking.demo.entity.Student;
 
 import javax.annotation.Resource;
 

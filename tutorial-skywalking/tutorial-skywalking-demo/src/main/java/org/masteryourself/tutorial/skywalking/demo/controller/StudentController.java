@@ -1,11 +1,11 @@
-package org.tutorial.skywalking.helloworld.controller;
+package org.masteryourself.tutorial.skywalking.demo.controller;
 
+import org.masteryourself.tutorial.skywalking.demo.service.StudentService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.tutorial.skywalking.helloworld.entity.Student;
-import org.tutorial.skywalking.helloworld.service.StudentService;
+import org.masteryourself.tutorial.skywalking.demo.entity.Student;
 
 import javax.annotation.Resource;
 
@@ -19,7 +19,7 @@ import javax.annotation.Resource;
  * @date : 2022/1/2 1:07 AM
  */
 @RestController
-@RequestMapping("student")
+@RequestMapping("/student")
 public class StudentController {
 
     @Resource

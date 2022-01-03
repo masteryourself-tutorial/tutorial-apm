@@ -1,4 +1,4 @@
-package org.tutorial.skywalking.synthetic;
+package org.masteryourself.tutorial.skywalking.synthetic;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

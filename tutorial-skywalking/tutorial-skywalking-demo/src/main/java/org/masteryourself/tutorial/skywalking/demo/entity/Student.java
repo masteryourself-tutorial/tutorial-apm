@@ -1,4 +1,4 @@
-package org.tutorial.skywalking.helloworld.entity;
+package org.masteryourself.tutorial.skywalking.demo.entity;
 
 import lombok.Data;
 

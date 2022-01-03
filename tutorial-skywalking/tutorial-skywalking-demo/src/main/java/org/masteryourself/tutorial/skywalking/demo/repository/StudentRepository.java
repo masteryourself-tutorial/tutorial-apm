@@ -1,7 +1,7 @@
-package org.tutorial.skywalking.helloworld.repository;
+package org.masteryourself.tutorial.skywalking.demo.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.tutorial.skywalking.helloworld.entity.Student;
+import org.masteryourself.tutorial.skywalking.demo.entity.Student;
 
 /**
  * <p>description : StudentRepository
